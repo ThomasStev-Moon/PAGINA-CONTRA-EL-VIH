@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información y Prevención del VIH en Colombia | El Líder Tiene SIDA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo vih.png" type="image/png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!------------------ HEADER -------------------->
+    <header class="header">
+        <a href="#inicio" class="logo">
+            <div class="logo-icono">
+                <img src="img/logo vih.png" width="180" alt="LOGO VIH Prevención Colombia">
+            </div>
+        </a>
+
+        <nav class="nav-menu" id="nav-menu">
+            <a href="#info" class="nav-link">INFORMACIÓN</a>
+            <a href="#test" class="nav-link">TESTIMONIOS</a>
+            <a href="#video" class="nav-link">VIDEOS</a>
+            <a href="#galeria" class="nav-link">GALERÍA</a>     
+            <a href="#enti" class="nav-link">ENTIDADES</a>
+            <a href="#chatbot" class="nav-link nav-highlight" id="openChatNav">💬 CHATBOT INFOVIH</a>     
+        </nav>
+
+        <button class="menu-btn" id="menu-btn" aria-label="Abrir Menú de Navegación">☰</button>
+    </header>
+ 
+    <!------------------ SLIDER INTERACTIVO -------------------->
+    <section class="slider" id="inicio">
+        <div class="slides-container">
+            <div class="slide activo slide-1">
+                <img src="img/slide1.png" alt="El VIH no distingue edad" class="slide-bg">
+                <div class="slide-overlay">
+                    <div class="slide-contenido">
+                        <h2>ROMPE <samp>el estigma</samp></h2>
+                        <p>"El VIH no define a una persona; el respeto y la empatía sí."</p>
+                        <a href="#info" class="btn">Conoce más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-2">
+                <img src="img/slide2.png" alt="Prevención es vida" class="slide-bg">
+                <div class="slide-overlay">
+                    <div class="slide-contenido">
+                        <h2>PREVENCIÓN <samp>es vida</samp></h2>
+                        <p>"Cuidarte es la mejor forma de proteger tu futuro y el de los tuyos."</p>
+                        <a href="#enti" class="btn">Busca ayuda</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide slide-3">
+                <img src="img/slide3.png" alt="Voces y reflexión" class="slide-bg">
+                <div class="slide-overlay">
+                    <div class="slide-contenido">
+                        <h2>VOCES Y <samp>reflexión</samp></h2>
+                        <p>"Romper el silencio es el primer paso para construir una sociedad inclusiva."</p>
+                        <a href="#test" class="btn">Ver testimonios</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-flechas"> 
+            <button class="flecha" id="prevSlide" aria-label="Slide anterior">&#8592;</button>
+            <button class="flecha" id="nextSlide" aria-label="Siguiente slide">&#8594;</button>
+        </div>
+
+        <div class="slider-puntos">
+            <button class="punto activo" data-index="0" aria-label="Ir a diapositiva 1"></button>
+            <button class="punto" data-index="1" aria-label="Ir a diapositiva 2"></button>
+            <button class="punto" data-index="2" aria-label="Ir a diapositiva 3"></button>
+        </div>
+    </section>
+
+    <!------------------ INFORMACIÓN EDUCATIVA -------------------->
+    <section id="info" class="section-container">
+        <div class="titulo-section">
+            <h2>¿QUÉ DEBES SABER SOBRE EL VIH?</h2>
+            <div class="linea"></div>
+            <p>Información clara, científica y sin tabúes para jóvenes en Colombia.</p>
+        </div>
+        
+        <div class="info-grid">
+            <article class="info-card">
+                <div class="info-icon">💡</div>
+                <h3>¿VIH y SIDA son lo mismo?</h3>
+                <p><strong>No.</strong> El <strong>VIH</strong> (Virus de Inmunodeficiencia Humana) ataca el sistema inmune. El <strong>SIDA</strong> (Síndrome de Inmunodeficiencia Adquirida) es la etapa avanzada de la infección cuando no se recibe tratamiento oportuno.</p>
+            </article>
+
+            <article class="info-card">
+                <div class="info-icon">🛡️</div>
+                <h3>Métodos de Prevención</h3>
+                <p>Uso constante del preservativo (condón masculino/femenino), la <strong>PrEP</strong> (Profilaxis Preexposición) y la <strong>PEP</strong> (Profilaxis Post-exposición) disponibles en el sistema de salud colombiano.</p>
+            </article>
+
+            <article class="info-card">
+                <div class="info-icon">🧬</div>
+                <h3>Indetectable = Intransmisible</h3>
+                <p>Una persona con VIH en Tratamiento Antirretroviral (TAR) que logra mantener una carga viral <strong>indetectable</strong> por más de 6 meses <strong>no transmite</strong> el virus por vía sexual.</p>
+            </article>
+
+            <article class="info-card">
+                <div class="info-icon">🩺</div>
+                <h3>Pruebas y Diagnóstico</h3>
+                <p>Hazte la prueba rápida de VIH gratis en tu EPS o mediante campañas comunitarias. Un diagnóstico a tiempo garantiza una expectativa y calidad de vida completamente normal.</p>
+            </article>
+        </div>
+    </section>
+
+    <!------------------ TESTIMONIOS -------------------->
+    <section id="test" class="section-container section-alt">
+        <div class="titulo-section">
+            <h2>TESTIMONIOS</h2>
+            <div class="linea"></div>
+            <p>Historias reales de personas que transforman estigmas en resiliencia y esperanza.</p>
+        </div>
+
+        <div class="testimonios-grid">
+            <div class="testimonio">
+                <div class="comillas">“</div>
+                <p>Descubrí mi diagnóstico tras una etapa difícil. Al principio sentí mucho temor por la desinformación, pero al iniciar mi tratamiento y contar con redes de apoyo, comprendí que el VIH no limita mis sueños. Hoy vivo una vida llena de metas cumplidas.</p>
+                <div class="autor">
+                    <div class="avatar">L</div>
+                    <div class="autor-info">
+                        <span class="nombre">Laura, 23 años</span>
+                        <span class="ubicacion">Bogotá D.C.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonio">
+                <div class="comillas">“</div>
+                <p>Aprendí a cuidar mi salud de forma constante. Hoy no solo mantengo mi carga viral indetectable, sino que dedico tiempo a acompañar a jóvenes en zonas rurales para que entiendan la importancia de la prevención y la empatía.</p>
+                <div class="autor">
+                    <div class="avatar">A</div>
+                    <div class="autor-info">
+                        <span class="nombre">Andrés, 45 años</span>
+                        <span class="ubicacion">Armero, Tolima</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonio">
+                <div class="comillas">“</div>
+                <p>Gracias al acompañamiento oportuno de profesionales y organizaciones aliadas, entendí que un diagnóstico temprano hace la diferencia. Romper el silencio nos permite sanar y educar a nuestras comunidades.</p>
+                <div class="autor">
+                    <div class="avatar">M</div>
+                    <div class="autor-info">
+                        <span class="nombre">María, 28 años</span>
+                        <span class="ubicacion">Melgar, Tolima</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------ VIDEO INFORMATIVO -------------------->
+    <section id="video" class="section-container">
+        <div class="titulo-section"> 
+            <h2>VIDEO INFORMATIVO</h2>
+            <div class="linea"></div>
+            <p>Aprende de forma visual y pedagógica cómo prevenir e informarte correctamente.</p>
+        </div>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/ofiCQqMCoAU?si=gFXS4wfX_d0yzfZS" title="Video educativo sobre la prevención e información del VIH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!------------------ GALERÍA DE IMÁGENES -------------------->
+    <section id="galeria" class="section-container section-alt">
+        <div class="titulo-section">
+            <h2>GALERÍA DE CAMPAÑAS</h2>
+            <div class="linea"></div>
+            <p>Conoce las principales campañas visuales y proyectos de concienciación en Colombia.</p>
+        </div>
+
+        <div class="galeria-grid">
+            <div class="galeria-item" data-src="img/gal1.png" data-alt="Campaña de prevención VIH 1">
+                <div class="img-placeholder g1">
+                    <img src="img/gal1.png" alt="Campaña de prevención VIH 1">
+                </div>
+                <div class="overlay">🔍 Ampliar</div>
+            </div>
+
+            <div class="galeria-item" data-src="img/gal2.png" data-alt="Campaña de prevención VIH 2">
+                <div class="img-placeholder g2">
+                    <img src="img/gal2.png" alt="Campaña de prevención VIH 2">
+                </div>
+                <div class="overlay">🔍 Ampliar</div>
+            </div>
+
+            <div class="galeria-item" data-src="img/gal3.png" data-alt="Campaña de prevención VIH 3">
+                <div class="img-placeholder g3">
+                    <img src="img/gal3.png" alt="Campaña de prevención VIH 3">
+                </div>
+                <div class="overlay">🔍 Ampliar</div>
+            </div>
+
+            <div class="galeria-item" data-src="img/gal4.png" data-alt="Campaña de prevención VIH 4">
+                <div class="img-placeholder g4">
+                    <img src="img/gal4.png" alt="Campaña de prevención VIH 4">
+                </div>
+                <div class="overlay">🔍 Ampliar</div>
+            </div>
+
+            <div class="galeria-item" data-src="img/gal5.png" data-alt="Campaña de prevención VIH 5">
+                <div class="img-placeholder g5">
+                    <img src="img/gal5.png" alt="Campaña de prevención VIH 5">
+                </div>
+                <div class="overlay">🔍 Ampliar</div>
+            </div>
+
+            <div class="galeria-item" data-src="img/gal6.png" data-alt="Campaña de prevención VIH 6">
+                <div class="img-placeholder g6">
+                    <img src="img/gal6.png" alt="Campaña de prevención VIH 6">
+                </div>
+                <div class="overlay">🔍 Ampliar</div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------ VISOR MODAL (LIGHTBOX) -------------------->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-cerrar" id="lightboxCerrar" aria-label="Cerrar Imagen">&times;</button>
+        <div class="lightbox-contenido">
+            <img class="lightbox-img-real" id="lightbox-img-real" src="" alt="Vista ampliada">
+            <p id="lightbox-caption" class="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <!------------------ ENTIDADES DE APOYO -------------------->
+    <section id="enti" class="section-container">
+        <div class="titulo-section">
+            <h2>ENTIDADES DE APOYO EN COLOMBIA</h2>
+            <div class="linea"></div>
+            <p>Organizaciones e instituciones donde puedes solicitar orientación, pruebas y acompañamiento.</p>
+        </div>
+
+        <div class="entidades-grid">
+            <a href="https://fundacioneudes.co/" target="_blank" rel="noopener noreferrer" class="entidad-card">
+                <div class="icono">🌼</div>
+                <h3>FUNDACIÓN EUDES</h3>
+                <p>Atención integral y acompañamiento a personas afectadas por el VIH.</p>
+            </a>
+
+            <a href="https://ahfcolombia.org.co/" target="_blank" rel="noopener noreferrer" class="entidad-card">
+                <div class="icono">💉</div>
+                <h3>AHF COLOMBIA</h3>
+                <p>Pruebas rápidas gratuitas, distribución de condones y asesoría.</p>
+            </a>
+
+            <a href="https://cls.org.co/" target="_blank" rel="noopener noreferrer" class="entidad-card">
+                <div class="icono">🥊</div>
+                <h3>CORP. LUCHA CONTRA EL SIDA</h3>
+                <p>Investigación, prevención y diagnóstico especializado en Cali y el país.</p>
+            </a>
+
+            <a href="https://www.reviva.org.co/" target="_blank" rel="noopener noreferrer" class="entidad-card">
+                <div class="icono">❤️‍🩹</div>
+                <h3>FUNDACIÓN REVIVA</h3>
+                <p>Apoyo social, educativo y emocional en salud sexual.</p>
+            </a>
+
+            <a href="https://enbogotasepuedeser.gov.co/" target="_blank" rel="noopener noreferrer" class="entidad-card">
+                <div class="icono">💫</div>
+                <h3>EN BOGOTÁ SE PUEDE SER</h3>
+                <p>Políticas públicas de inclusión y salud sexual diversa en Bogotá.</p>
+            </a>
+
+            <a href="https://www.faae.org.co/" target="_blank" rel="noopener noreferrer" class="entidad-card">
+                <div class="icono">🧡</div>
+                <h3>FUNDACIÓN ALEJANDRO A. ESCOBAR</h3>
+                <p>Promoción de proyectos sociales y de salud comunitaria.</p>
+            </a>
+        </div>
+    </section>
+
+    <!------------------ CHATBOT FLOTANTE (INFOVIH) -------------------->
+    <div class="chat-toggle" id="chatToggle" title="Abrir Chatbot InfoVIH">
+        🎗️
+    </div>
+
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <h3>🎗️ InfoVIH Chatbot</h3>
+                <span>Asistente confidencial y seguro</span>
+            </div>
+            <div class="chat-header-actions">
+                <button id="clearChat" title="Limpiar conversación">🗑️</button>
+                <button id="closeChat" title="Cerrar chat">✕</button>
+            </div>
+        </div>
+
+        <div class="chat-disclaimer">
+            ℹ️ <strong>Aviso:</strong> Este asistente ofrece información educativa y <strong>no reemplaza</strong> la consulta médica profesional.
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message assistant">
+                ¡Hola! 👋 Soy <strong>InfoVIH</strong>. Puedes preguntarme sobre prevención, pruebas de detección, tratamiento, PrEP/PEP, o cualquier duda relacionada con el VIH. ¿En qué puedo ayudarte hoy?
+            </div>
+        </div>
+
+        <form class="chat-input-area" id="chatForm">
+            <input type="text" id="chatInput" placeholder="Escribe tu pregunta aquí..." autocomplete="off" required>
+            <button type="submit" id="chatSend">Enviar</button>
+        </form>
+    </div>
+
+    <!------------------ FOOTER -------------------->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="img/logo vih.png" alt="Logo VIH" class="footer-logo">
+                <p>Iniciativa educativa orientada a informar, prevenir y erradicar el estigma social en torno al VIH/SIDA en Colombia.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#info">Información</a></li>
+                    <li><a href="#test">Testimonios</a></li>
+                    <li><a href="#video">Videos</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#enti">Entidades</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Líneas de Ayuda</h4>
+                <p>Línea Nacional de Orientación: <strong>192</strong></p>
+                <p>Emergencias: <strong>123</strong></p>
+                <p>Atención gratuita de salud sexual en tu EPS correspondiente.</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Prevención VIH Colombia. Todos los derechos reservados. Educando para salvar vidas.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
